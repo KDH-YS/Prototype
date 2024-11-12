@@ -20,8 +20,9 @@
   .footer p {
     margin-bottom: 0;
   }
+  
   .footer {
-    position: fixed;
+    position: fixed;/* 바닥에 고정 */
     bottom: 0;
     left: 0;
     width: 100%;
