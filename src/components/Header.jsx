@@ -4,7 +4,7 @@ import '../css/Header.css'
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg" data-bs-theme="dark" style={{ backgroundColor: '#FF5733' }}>
+    <nav className="navbar navbar-expand-lg" data-bs-theme="dark" >
       <div className="container-fluid" >
         {/* 중앙에 Rechelin Korea 텍스트 */}
         <a className="navbar-brand mx-auto" href="#">Rechelin Korea</a>

@@ -22,7 +22,8 @@
   }
   
   .footer {
-    position: fixed;/* 바닥에 고정 */
+    /* 바닥에 고정 */
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     width: 100%;

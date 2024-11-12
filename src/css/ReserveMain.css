@@ -1,0 +1,186 @@
+.main {
+    margin: 20px auto;
+    width: 1080px;
+    height: 1300px;
+  }
+  
+  /* 전체 페이지 스타일 */
+  .restaurant-page {
+    font-family: InkLipquid, sans-serif;
+    margin: 20px;
+  }
+  
+  .restaurant-header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-image: url('../img/restaurant.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+  }
+  
+  .restaurant-info h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .restaurant-description {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .rating {
+    text-align: center;
+    font-size: 24px;
+    color: gold;
+  }
+  
+  /* 매장 정보 영역 */
+  .restaurant-info {
+    
+    margin-bottom: 40px;
+  }
+  
+  .restaurant-info h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .restaurant-info .menu {
+    margin-bottom: 20px;
+  }
+  
+  /* 주소, 영업시간, 지도 배치 */
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .left-info {
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 31px;
+
+    width: 65%;
+  }
+  
+  .right-info {
+    width: 30%;
+  }
+  
+  .address,
+  .business-hours {
+    margin-bottom: 20px;
+  }
+  
+  .address h3,
+  .business-hours h3 {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .address p,
+  .business-hours p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .google-map {
+    width: 30%;
+  }
+  
+  .map-placeholder {
+    width: 100%;
+    height: 400px;
+    background-color: #e0e0e0;
+    text-align: center;
+    line-height: 400px;
+  }
+  
+  .google-map h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* 메뉴 스타일 */
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* 리뷰 구역 */
+  .reviews {
+    margin-bottom: 40px;
+  }
+  
+  .reviews h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .review {
+    background-color: #eeeeee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .review p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .review span {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* 예약 구역 */
+  .reservation {
+    text-align: center;
+  }
+  
+  .reservation h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .reservation input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .reserve-btn {
+    padding: 15px 50px;
+    font-size: 30px;
+    background-color: #f28d28; /* 주황색 계열 */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .reserve-btn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
