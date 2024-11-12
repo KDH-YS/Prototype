@@ -19,7 +19,7 @@ function ReserveMain() {
         {/* 중간: 매장 소개, 주소, 영업시간, 메뉴 */}
         <section className="restaurant-info">
           <h1 className="restaurant-title">레슐렝 코리아</h1>
-          <p className="restaurant-description">레스토랑 예약 대행 사이트</p>
+          <p className="restaurant-description">한줄평[레스토랑 정보 페이지에서 받아와서 동적으로 처리]</p>
           <div className="rating">
             <span>★★★★☆</span> {/* 별점 표시 */}
           </div>
@@ -28,23 +28,23 @@ function ReserveMain() {
             <div className="left-info">
                 
           <h2>매장소개</h2>
-          <p>3대 소울푸드 맛집</p>
+          <p>[레스토랑 정보 페이지에서 받아와서 동적으로 처리]</p>
               <div className="address">
                 <h3>주소</h3>
-                <p>경기도 수원시 장안구 정조로 940-1</p>
+                <p>[레스토랑 데이터 서버에서 받아와서 처리]</p>
               </div>
 
               <div className="business-hours">
                 <h3>영업시간</h3>
-                <p>Mon - Fri: 10:00 AM - 9:00 PM</p>
-                <p>Sat - Sun: 11:00 AM - 10:00 PM</p>
+                <p>[레스토랑 정보 페이지에서 받아와서 동적으로 처리]</p>
+                <p>[레스토랑 정보 페이지에서 받아와서 동적으로 처리]</p>
               </div>
               <div className="menu">
             <h3>메뉴</h3>
             <ul>
-              <li>돈까스</li>
-              <li>국밥</li>
-              <li>제육</li>
+              <li>[레스토랑 데이터 서버에서 받아와서 처리]</li>
+              <li>[레스토랑 데이터 서버에서 받아와서 처리]</li>
+              <li>[레스토랑 데이터 서버에서 받아와서 처리]</li>
             </ul>
           </div>
             </div>
